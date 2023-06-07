@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meatball Studio</title>
+  <style>
+    /* CSS樣式 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("ig/idxbg.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .header-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    
+    .header-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      margin-top: -100px; /* 將負的上邊距設為 -100px */
+    }
+    
+    .sidebar {
+      background-color: #f2f2f2;
+      float: left;
+      width: 20%;
+      padding: 20px;
+    }
+    
+    .content {
+      float: left;
+      width: 80%;
+      padding: 20px;
+    }
+    
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      clear: both;
+    }
+    
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 5px;
+    }
+    
+    /* 媒體查詢 */
+    @media screen and (max-width: 768px) {
+      /* 在螢幕寬度小於等於 768px 時套用的樣式 */
+      .sidebar, .content {
+        width: 100%;
+        float: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="ig/odd.jpg" alt="圖標" class="header-icon">
+    <div class="header-title">
+      <h1>歡迎來到 Meatball Studio</h1>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+    <h2>側邊欄</h2>
+    <ul>
+      <li><a href="page1.html" class="button">關於我們</a></li>
+      <li><a href="https://forms.gle/PSrXW8A4k4Asi62HA" class="button">聯繫我們</a></li>
+      <li><a href=" https://discord.gg/nZwkUC7WAV " class="button">discord</a></li>
+      <li><a href="https://www.youtube.com/@MBS_YT/featured" class="button">youtube</a></li>
+      <li><a href="https://disboard.org/zh-tw/server/1056549795025657957" class="button">disboard</a></li>
+    </ul>
+  </div>
+  
+  <div class="content">
+    <h2>內容區域</h2>
+    <p>這是網頁的主要內容。</p>
+  </div>
+  
+  <div class="footer">
+    <p>版權所有 &copy; 2023 Meatball Studio肉球工作室™</p>
+  </div>
+</body>
+</html>
